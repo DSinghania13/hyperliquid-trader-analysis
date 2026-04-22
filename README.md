@@ -9,8 +9,6 @@ This repository contains an analysis of how Bitcoin's Fear & Greed index influen
 
 ## 📊 Output Charts & Visualizations
 
-*(Note: Ensure your `.png` files are uploaded to the repo, then the images will render below!)*
-
 ### 1. Performance Overview by Sentiment
 ![Sentiment Performance](https://github.com/user-attachments/assets/7571601b-0e53-4932-a23a-36dddaeedfd5)
 
