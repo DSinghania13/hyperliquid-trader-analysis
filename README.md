@@ -1,12 +1,12 @@
-# 📈 Hyperliquid Trader Behavior vs Market Sentiment
+# Hyperliquid Trader Behavior vs Market Sentiment
 
-🚀 **[Click Here to view the Live Interactive Dashboard!](https://hyperliquid-trader-analysis.streamlit.app/)**
+**[Click Here to view the Live Interactive Dashboard!](https://hyperliquid-trader-analysis.streamlit.app/)**
 
 This repository contains an analysis of how Bitcoin's Fear & Greed index influences trader behavior and performance on the Hyperliquid platform. It includes data wrangling, segmentation, and advanced machine learning models (K-Means and Random Forest) to predict next-day profitability.
 
 ---
 
-## 📊 Output Charts & Visualizations
+## Output Charts & Visualizations
 
 ### 1. Performance Overview by Sentiment
 ![Sentiment Performance](https://github.com/user-attachments/assets/7571601b-0e53-4932-a23a-36dddaeedfd5)
@@ -19,7 +19,7 @@ This repository contains an analysis of how Bitcoin's Fear & Greed index influen
 
 ---
 
-## 📝 Executive Write-Up
+## Executive Write-Up
 
 ### Methodology
 1. **Data Alignment & Cleaning:** Ingested Historical Trader Data and Fear/Greed Index. Converted Hyperliquid `Timestamp IST` to standard dates and merged the datasets on a daily level. Both datasets were verified to have zero missing values and zero duplicate rows.
@@ -44,7 +44,7 @@ Based on the data, here are two proposed platform rules of thumb:
 
 ---
 
-## 💻 Setup & How to Run Locally
+## Setup & How to Run Locally
 
 If you prefer to run the analysis and Streamlit app locally rather than using the live link above, follow these steps:
 
@@ -77,10 +77,10 @@ streamlit run app.py
 
 ---
 
-## 🧪 How to Test the Machine Learning Models
+## How to Test the Machine Learning Models
 Once the dashboard is running (either locally or via the live link), navigate to the interactive tabs and try plugging in these test profiles to see the models in action!
 
-#### 👉 K-Means Archetype Test Data (Tab 2)
+#### K-Means Archetype Test Data (Tab 2)
 
 | Test Case | Avg Trade Size ($) | Lifetime Trades | Win Rate | Expected Archetype | Reason |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -95,7 +95,7 @@ Once the dashboard is running (either locally or via the live link), navigate to
 | **9** | 18,000 | 500 | 0.45 | **Whale / Swing Trader** | Just crossing the threshold for a Whale account. |
 | **10**| 8,000 | 400 | 0.52 | **Retail / Casual** | Upper end of retail, but not quite a Whale or Scalper. |
 
-#### 👉 Random Forest Profitability Test Data (Tab 3)
+#### Random Forest Profitability Test Data (Tab 3)
 
 | Test Case | Today's PnL ($) | Trades Today | Avg Trade Size | Win Rate | Sentiment | Expected Prediction |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
