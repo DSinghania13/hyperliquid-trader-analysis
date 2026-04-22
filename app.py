@@ -32,7 +32,6 @@ try:
     rf_feature_cols = ['daily_pnl', 'num_trades', 'avg_trade_size', 'win_rate'] + [c for c in df_ml_dummy.columns if
                                                                                    'sentiment_' in c]
 
-    # --- TABS SETUP ---
     tab1, tab2, tab3 = st.tabs(
         ["Market Sentiment", "Trader Archetypes (Interactive)", "Profitability Predictor (Interactive)"])
 
