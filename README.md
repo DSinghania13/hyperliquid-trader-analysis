@@ -100,14 +100,14 @@ Once the dashboard is running (either locally or via the live link), navigate to
 
 | Test Case | Today's PnL ($) | Trades Today | Avg Trade Size | Win Rate | Sentiment | Expected Prediction |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | 5,000 | 25 | 1,500 | 0.85 | Greed | 🟢 **Profitable** (Great momentum) |
-| **2** | -2,500 | 10 | 5,000 | 0.30 | Fear | 🔴 **Not Profitable** (Poor current performance) |
-| **3** | 150 | 5 | 200 | 0.60 | Neutral | 🟢 **Profitable** (Slow, but consistent) |
-| **4** | 12,000 | 150 | 2,500 | 0.75 | Fear | 🟢 **Profitable** (Thriving in volatility) |
-| **5** | -500 | 50 | 1,000 | 0.45 | Greed | 🔴 **Not Profitable** (Overtrading, losing money) |
-| **6** | 35,000 | 5 | 25,000 | 1.00 | Greed | 🟢 **Profitable** (Massive win rate/size) |
-| **7** | -12,000 | 80 | 5,000 | 0.20 | Fear | 🔴 **Not Profitable** (Heavy losses in a fearful market) |
-| **8** | 800 | 15 | 800 | 0.55 | Neutral | 🟢 **Profitable** (Slight edge, average day) |
-| **9** | 0 | 2 | 10,000 | 0.00 | Fear | 🔴 **Not Profitable** (No wins today) |
-| **10**| 4,500 | 200 | 500 | 0.65 | Greed | 🟢 **Profitable** (High-frequency scalping successfully) |
+| **1** | 5,000 | 25 | 1,500 | 0.85 | Greed | **Profitable** (Great momentum) |
+| **2** | -2,500 | 10 | 5,000 | 0.30 | Fear | **Not Profitable** (Poor current performance) |
+| **3** | 150 | 5 | 200 | 0.60 | Neutral | **Profitable** (Slow, but consistent) |
+| **4** | 12,000 | 150 | 2,500 | 0.75 | Fear | **Profitable** (Thriving in volatility) |
+| **5** | -500 | 50 | 1,000 | 0.45 | Greed | **Not Profitable** (Overtrading, losing money) |
+| **6** | 35,000 | 5 | 25,000 | 1.00 | Greed | **Profitable** (Massive win rate/size) |
+| **7** | -12,000 | 80 | 5,000 | 0.20 | Fear | **Not Profitable** (Heavy losses in a fearful market) |
+| **8** | 800 | 15 | 800 | 0.55 | Neutral | **Profitable** (Slight edge, average day) |
+| **9** | 0 | 2 | 10,000 | 0.00 | Fear | **Not Profitable** (No wins today) |
+| **10**| 4,500 | 200 | 500 | 0.65 | Greed | **Profitable** (High-frequency scalping successfully) |
 
