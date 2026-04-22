@@ -76,3 +76,38 @@ Run the Streamlit app to explore the live K-Means clustering and Random Forest p
 streamlit run app.py
 ```
 
+---
+
+## 🧪 How to Test the Machine Learning Models
+Once the dashboard is running (either locally or via the live link), navigate to the interactive tabs and try plugging in these test profiles to see the models in action!
+
+#### 👉 K-Means Archetype Test Data (Tab 2)
+
+| Test Case | Avg Trade Size ($) | Lifetime Trades | Win Rate | Expected Archetype | Reason |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | 1,500 | 50 | 0.45 | **Retail / Casual** | Low volume, low trade count. |
+| **2** | 25,000 | 200 | 0.60 | **Whale / Swing Trader** | Massive trade size, moderate frequency. |
+| **3** | 500 | 8,000 | 0.75 | **High-Frequency Scalper** | Tiny sizes but thousands of trades. |
+| **4** | 5,000 | 120 | 0.50 | **Retail / Casual** | Average numbers across the board. |
+| **5** | 45,000 | 50 | 0.55 | **Whale / Swing Trader** | Extremely large sizes, very few trades. |
+| **6** | 1,200 | 15,000 | 0.68 | **High-Frequency Scalper** | Massive trade volume. |
+| **7** | 200 | 15 | 0.30 | **Retail / Casual** | Brand new or very unsuccessful retail trader. |
+| **8** | 2,000 | 6,500 | 0.80 | **High-Frequency Scalper** | Highly active and highly successful. |
+| **9** | 18,000 | 500 | 0.45 | **Whale / Swing Trader** | Just crossing the threshold for a Whale account. |
+| **10**| 8,000 | 400 | 0.52 | **Retail / Casual** | Upper end of retail, but not quite a Whale or Scalper. |
+
+#### 👉 Random Forest Profitability Test Data (Tab 3)
+
+| Test Case | Today's PnL ($) | Trades Today | Avg Trade Size | Win Rate | Sentiment | Expected Prediction |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | 5,000 | 25 | 1,500 | 0.85 | Greed | 🟢 **Profitable** (Great momentum) |
+| **2** | -2,500 | 10 | 5,000 | 0.30 | Fear | 🔴 **Not Profitable** (Poor current performance) |
+| **3** | 150 | 5 | 200 | 0.60 | Neutral | 🟢 **Profitable** (Slow, but consistent) |
+| **4** | 12,000 | 150 | 2,500 | 0.75 | Fear | 🟢 **Profitable** (Thriving in volatility) |
+| **5** | -500 | 50 | 1,000 | 0.45 | Greed | 🔴 **Not Profitable** (Overtrading, losing money) |
+| **6** | 35,000 | 5 | 25,000 | 1.00 | Greed | 🟢 **Profitable** (Massive win rate/size) |
+| **7** | -12,000 | 80 | 5,000 | 0.20 | Fear | 🔴 **Not Profitable** (Heavy losses in a fearful market) |
+| **8** | 800 | 15 | 800 | 0.55 | Neutral | 🟢 **Profitable** (Slight edge, average day) |
+| **9** | 0 | 2 | 10,000 | 0.00 | Fear | 🔴 **Not Profitable** (No wins today) |
+| **10**| 4,500 | 200 | 500 | 0.65 | Greed | 🟢 **Profitable** (High-frequency scalping successfully) |
+
