@@ -1,7 +1,7 @@
 # 📈 Hyperliquid Trader Behavior vs Market Sentiment
 **Primetrade.ai - Data Science Intern Assignment**
 
-🚀 **[Click Here to view the Live Interactive Dashboard!](YOUR_STREAMLIT_APP_LINK_HERE)**
+🚀 **[Click Here to view the Live Interactive Dashboard!](https://hyperliquid-trader-analysis.streamlit.app/)**
 
 This repository contains an analysis of how Bitcoin's Fear & Greed index influences trader behavior and performance on the Hyperliquid platform. It includes data wrangling, segmentation, and advanced machine learning models (K-Means and Random Forest) to predict next-day profitability.
 
