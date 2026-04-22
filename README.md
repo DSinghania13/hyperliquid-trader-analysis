@@ -53,7 +53,7 @@ If you prefer to run the analysis and Streamlit app locally rather than using th
 
 ### 1. Clone the repository:
 ```bash
-git clonehttps://github.com/YOUR_USERNAME/hyperliquid-trader-analysis.git
+git clone https://github.com/YOUR_USERNAME/hyperliquid-trader-analysis.git
 cd hyperliquid-trader-analysis
 ```
 
