@@ -1,5 +1,4 @@
 # 📈 Hyperliquid Trader Behavior vs Market Sentiment
-**Primetrade.ai - Data Science Intern Assignment**
 
 🚀 **[Click Here to view the Live Interactive Dashboard!](https://hyperliquid-trader-analysis.streamlit.app/)**
 
