@@ -63,7 +63,7 @@ source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 ### 3. Install dependencies:
 Ensure you have Python installed, then run:
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn streamlit joblib
+pip install -r requirements.txt
 ```
 
 ### 4. Run the Jupyter Notebook (Optional):
